@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cnvrsText>
+  <sheet name="en" index="1">
+    <text name="inventory_shield" id="6300000000" font="Range_FNT_bgm" layout="Range_LAY_bgm">
+      Normal shield (<var name="quantity" />)
+    </text>
+    <text name="inventory_thunder_shield" id="6300000001" font="Range_FNT_bgm" layout="Range_LAY_bgm">
+      Thunder shield (<var name="quantity" />)
+    </text>
+    <text name="inventory_flame_shield" id="6300000002" font="Range_FNT_bgm" layout="Range_LAY_bgm">
+      Flame shield (<var name="quantity" />)
+    </text>
+    <text name="inventory_aqua_shield" id="6300000003" font="Range_FNT_bgm" layout="Range_LAY_bgm">
+      Aqua shield (<var name="quantity" />)
+    </text>
+    <text name="inventory_triple_damage" id="6300000004" font="Range_FNT_bgm" layout="Range_LAY_bgm">
+      3x damage (<var name="quantity" />)
+    </text>
+    <text name="inventory_speed_boost" id="6300000005" font="Range_FNT_bgm" layout="Range_LAY_bgm">
+      Speed boost (<var name="quantity" />)
+    </text>
+    <text name="inventory_invulnerability" id="6300000006" font="Range_FNT_bgm" layout="Range_LAY_bgm">
+      Invulnerability (<var name="quantity" />)
+    </text>
+    <text name="inventory_super_form" id="6300000007" font="Range_FNT_bgm" layout="Range_LAY_bgm">
+      Super Sonic! (<var name="quantity" />)
+    </text>
+  </sheet>
+  <fonts>
+    <font name="Range_FNT_bgm">
+      <typeface>RANGEmixStd</typeface>
+      <size>27</size>
+      <lineSpacing>0</lineSpacing>
+      <unknown1>1067450368</unknown1>
+      <unknown2>2</unknown2>
+      <unknown3>0</unknown3>
+      <unknown4>0</unknown4>
+    </font>
+  </fonts>
+  <layouts>
+    <layout name="Range_LAY_bgm">
+      <textAlignment>left</textAlignment>
+      <verticalAlignment>middle</verticalAlignment>
+      <wordWrap>false</wordWrap>
+      <fit>condense</fit>
+    </layout>
+  </layouts>
+</cnvrsText>

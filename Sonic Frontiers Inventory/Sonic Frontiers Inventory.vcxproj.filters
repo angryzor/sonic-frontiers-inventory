@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Pch.h" />
+    <ClInclude Include="Mod.ini" />
+    <ClInclude Include="UIInventory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="Mod.cpp" />
+    <ClCompile Include="Pch.cpp" />
+    <ClCompile Include="UIInventory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{1d2f3a4f-4be7-4d0d-b91a-60a73306e490}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="resources\Inventory.cnvrs-text.xml">
+      <Filter>resources</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
